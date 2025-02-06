@@ -60,7 +60,7 @@ class MainActivity : ComponentActivity() {
             horizontalAlignment = Alignment.CenterHorizontally
         ){
             Row(){
-                Text("Results = ", fontSize = 25.sp)
+                Text("Results = ", fontSize = 26.sp)
                 Text(""+number1,fontSize=26.sp)
                 Text(" "+number2, fontSize = 26.sp)
                 Text(" "+number3, fontSize = 26.sp)
@@ -88,7 +88,7 @@ class MainActivity : ComponentActivity() {
                     resultsArray[0]=newNumber;
                     number1 = newNumber
                 }) {
-                    Text("Change the first number",fontSize=16.sp)
+                    Text("Change number one",fontSize=16.sp)
                 }
             }
             Spacer(Modifier.height(20.dp))
@@ -101,7 +101,7 @@ class MainActivity : ComponentActivity() {
                     resultsArray[1] = newNumber;
                     number2 = newNumber;
                 }){
-                    Text("Change the second number",fontSize=16.sp)
+                    Text("Change number two",fontSize=16.sp)
                 }
             }
             Spacer(Modifier.height(20.dp))
@@ -114,7 +114,7 @@ class MainActivity : ComponentActivity() {
                     resultsArray[2]=newNumber;
                     number3 = newNumber;
                 }){
-                    Text("Change the third number",fontSize=16.sp)
+                    Text("Change number three",fontSize=16.sp)
                 }
             }
             Spacer(Modifier.height(20.dp))
@@ -128,7 +128,7 @@ class MainActivity : ComponentActivity() {
                     resultsArray[3] = newNumber;
                     number4 = newNumber
                 }){
-                    Text("Change the fourth number", fontSize = 16.sp)
+                    Text("Change number four", fontSize = 16.sp)
                 }
             }
             Spacer(Modifier.height(20.dp))
@@ -141,7 +141,7 @@ class MainActivity : ComponentActivity() {
                     resultsArray[4] = newNumber;
                     number5 = newNumber
                 }){
-                    Text("Change the fifth number",fontSize=16.sp)
+                    Text("Change number five",fontSize=16.sp)
                 }
             }
             Spacer(Modifier.height(20.dp))
@@ -154,7 +154,7 @@ class MainActivity : ComponentActivity() {
                     resultsArray[5]=newNumber;
                     number6 = newNumber;
                 }){
-                    Text("Change the sixth number",fontSize=16.sp)
+                    Text("Change number six",fontSize=16.sp)
                 }
             }
         }
